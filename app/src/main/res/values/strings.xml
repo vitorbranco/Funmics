@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Funmics</string>
+    <string name="default_error_message">Ocorreu algum erro</string>
+    <string name="comic_list_is_empty">A lista de quadrinhos está vazia!</string>
+</resources>

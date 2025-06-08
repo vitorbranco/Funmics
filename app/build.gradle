@@ -3,12 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
-def apiKey = project.rootProject.file("local.properties").newDataInputStream().withStream {
-    Properties properties = new Properties()
-    properties.load(it)
-    return properties.getProperty("API_KEY")
-}
-
 android {
     compileSdk 33
 
@@ -30,8 +24,6 @@ android {
                 ]
             }
         }
-
-        buildConfigField "String", "API_KEY", "\"${apiKey}\""
 
     }
 

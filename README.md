@@ -13,7 +13,6 @@ Funmics é um projeto desenvolvido durante um desafio técnico. Utiliza uma API 
 - Uso de Fragments para conteúdo da tela
 - Criação do estado de lista vazia
 - Melhorias de UI para modernização
-- ApiKey agora é oculta
 
 ## 🛠️ Tecnologias usadas
 
